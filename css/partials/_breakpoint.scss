@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bg-color {
+    border-radius: 45%;
+    border-top-right-radius: 0 !important;
+    left: -60% !important;
+    // width: 300px;
+  }
+
+  .hero-text {
+    margin-right: 30px !important;
+    text-align: left !important;
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    p {
+      text-align: left !important;
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .hero-text {
+    text-align: left !important;
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    p {
+      text-align: left !important;
+      margin-right: 40px;
+      width: 70%;
+    }
+  }
+}
